@@ -1,0 +1,1 @@
+var _api=[];window.File&&window.FileReader&&window.FileList&&window.Blob&&(_api.FileSystem=!0);window.performance&&(_api.Performance=!0);"onhashchange"in window&&(_api.onHashChange=!0);window.localStorage&&(_api.LocalStorage=!0);window.sessionStorage&&(_api.SessionStorage=!0);

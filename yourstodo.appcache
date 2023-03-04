@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# 2023-03-04 v1.0.0
+/index.html
+/scripts/jquery-min.js
+/scripts/html5api.js
+/scripts/main-mini.js
+/css/main-mini.css
+
+
+NETWORK:
+*

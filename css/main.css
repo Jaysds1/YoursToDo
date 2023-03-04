@@ -1,0 +1,47 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+article,aside,footer,header,nav,section{display:block}
+body,html{height:100%}
+body{text-align:center;background-color:#FFA}
+#sub-body{text-align:left;width:100%;margin:auto;height:100%}
+header{position:fixed;top:0;z-index:1;min-height:50px;width:100%;border-bottom:1px solid #000}
+footer{position:fixed;bottom:0;min-height:30px;width:100%}
+main{padding:150px 0;}
+aside{
+    display:none;
+    height:50%;
+    position:absolute;
+    z-index: 1;
+    margin-top:150px;
+    left:0;
+    overflow:hidden;
+}
+ul{list-style-type:disc;margin-left:20px}
+ol{list-style-type:decimal;margin-left:20px}
+li{margin:5px 0;cursor:default}
+del{cursor:default;z-index:1}
+input[type=text]{border:none;background-color:#FFA;width:100%}
+#edit{display:none;width:50px;margin-left:10px}
+#settings{
+    float:left;
+    display:inline-block;
+    cursor:pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotating Bars 1-3 */
+.change .bar1{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}

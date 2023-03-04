@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html manifest="yourstodo.appcache">
+  <head>
+    <title>Yours To-Do List | List what you want to-do before you forget what to-do!</title>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+    <meta
+        name="description"
+        content="Your to-do list, list what you want to-do before you forget what to-do!"
+        />
+    <meta
+        name="keywords"
+        content="your,yours,to,do,to-do,list,saved,local,device,html5,jquon,projects,jquonprojects,free,forget,want,before,after"
+        />
+
+    <link type="text/css" rel="stylesheet" href="css/main-mini.css" media="all"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=KmG5zgkEX6">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=KmG5zgkEX6">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=KmG5zgkEX6" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-194x194.png?v=KmG5zgkEX6" sizes="194x194">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=KmG5zgkEX6" sizes="96x96">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=KmG5zgkEX6" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=KmG5zgkEX6" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?v=KmG5zgkEX6">
+    <link rel="shortcut icon" href="/favicon.ico?v=KmG5zgkEX6">
+    <meta name="msapplication-TileColor" content="#f0f04c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=KmG5zgkEX6">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="scripts/jquery-min.js"></script>
+
+    <script src="scripts/html5api.js"></script>
+    <script async src="scripts/main-mini.js"></script>
+
+    <meta name="google-translate-customization" content="94b07f94f22380b7-1ac2d293c5cb153a-ga5e5534f1a47a975-11"/>
+  </head>
+  <body>
+    <div id="sub-body">
+      <header>
+        <div id="settings" data-open='0'>
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <h1 style="text-align:center;">Yours To-Do List</h1>
+        <p style="font-size:.8em;text-align:center;">
+          List what you want to-do before you forget what to-do!
+        </p>
+      </header>
+      <aside>
+        <h2>Settings</h2>
+        <div id="google_translate_element"></div>
+        <script>function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT, gaTrack: true, gaId: 'UA-36441977-7'}, 'google_translate_element');
+          }</script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <label>Text Color: <input type="color" id="tColor"></label><br/>
+        <label>Background Color: <input type="color" id="bgColor"></label><br/><br/>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Type in what you want to-do</li>
+          <li>Mouse over what you want to edit/change and <br/> press enter after you're finish</li>
+          <li>When you're finished with the task,<br/> click once to <del>strike-out</del> or double click to remove</li>
+        </ol><br/>
+      </aside>
+      <div id="wrap">
+        <main>
+          <button type="button" id="edit">Edit</button>
+          <ul id="list">
+            <li><input type="text" placeholder="To-Do" autofocus></li>
+          </ul>
+        </main>
+        <footer>
+          <p>
+            &copy; 2015-2023 JQuonProjects<br/>
+            All your information is stored on <strong>your device</strong> and not on our site!
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
